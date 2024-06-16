@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Life Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="canvas-container">
+            <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="settings-container">
+            <h2>Particle Settings</h2>
+            <form id="settingsForm">
+                <div class="form-group">
+                    <label for="red-particle-mass">Red Particle Mass:</label>
+                    <input type="number" id="red-particle-mass" name="red-particle-mass" min="1" max="100" value="10">
+                </div>
+                <div class="form-group">
+                    <label for="blue-particle-mass">Blue Particle Mass:</label>
+                    <input type="number" id="blue-particle-mass" name="blue-particle-mass" min="1" max="100" value="10">
+                </div>
+                <div class="form-group">
+                    <label for="green-particle-mass">Green Particle Mass:</label>
+                    <input type="number" id="green-particle-mass" name="green-particle-mass" min="1" max="100" value="10">
+                </div>
+                <!-- Add more settings as needed -->
+                <button type="button" onclick="updateSettings()">Apply Settings</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
