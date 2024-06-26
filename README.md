@@ -1,5 +1,8 @@
 # particle-life-rust
 
+A simulation of atoms with different interaction rules (attraction/repulsion) intended to demonstrate emergent, life-like behavior within the particles.
+
+
 Mac app should be available to download via releases. If you want to build it yourself, or the downloadable .dmg app does not work, clone this repository and run the command
 `npm run tauri build` 
 to build the app.
