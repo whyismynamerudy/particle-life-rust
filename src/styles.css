@@ -60,3 +60,22 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+#interactionRules {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+#interactionRules .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+#interactionRules label {
+  font-size: 0.9em;
+}
