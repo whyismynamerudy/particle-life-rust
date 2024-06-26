@@ -12,8 +12,12 @@ To use this app you'll need to build it yourself (at least until I figure out wh
 
 App should be built and available for use within `src-tauri/target/release/bundle/macos` (if you're on mac).
 
-v1: 
+update 1: 
 https://github.com/whyismynamerudy/particle-life-rust/assets/64883022/5fbbd919-cc66-44ec-bd0a-73f3a21ff6b0
 
-v2 (what is included in the release):
+update 2:
 https://github.com/whyismynamerudy/particle-life-rust/assets/64883022/e46d370f-6c1d-4b7b-94d0-5cbba5e94fb7
+
+update 3: (what's included in the current build)
+https://github.com/whyismynamerudy/particle-life-rust/assets/64883022/308a659e-a7c3-4dd2-a9cc-b8b538166bb7
+
