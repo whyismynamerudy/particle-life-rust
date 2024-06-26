@@ -226,3 +226,5 @@ fn main() {
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
+
+// CI=true npm run tauri build
